@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <h1>Registration</h1>
+        <div class="line"></div>
+        <div class="registrationform">
+            <form action="">
+                <div class="input1">
+                    <div class="inputone">
+                        <label class="detail" for="First Name">First Name</label>
+                        <input type="text" placeholder="First Name" required id="First Name">
+                    </div>
+                    <div class="inputtwo">
+                        <label class="detail" for="Last Name">Last Name</label>
+                        <input type="text" placeholder="Last Name" required id="Last Name">
+                    </div>
+                </div>
+                <div class="input">
+                    <div class="">
+                        <label class="detail" for="Email Address">Email Address</label>
+                        <input type="text" placeholder="Email Address" required id="Email Address">
+                    </div>
+                </div>
+                <div class="input3">
+                    <label class="detail" for="Select City">Select City</label>
+                    <select name="selectcity" required>
+                        <option value="" disabled selected>Select City</option>
+                        <option value="Karachi">Karachi</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Islamabad">Islamabad</option>
+                    </select>
+                </div>
+                <div class="input3">
+                    <label class="detail" for="Select Country">Select Country</label>
+                    <select name="Select Country">
+                        <option value="" disabled selected>Select Country</option>
+                    </select>
+
+
+                </div>
+                <div class="gender">
+                    <label class="detail" for="Gender">Gender</label>
+                    <div class="genderdetail1">
+                        <label for="Male">
+                            <input type="radio" required name="family" id="Male">
+                            Male
+                        </label>
+                    </div>
+                    <div class="genderdetail2">
+                        <label for="Female">
+                            <input type="radio" required name="family" id="Female">
+                            Female
+                        </label>
+                    </div>
+
+                </div>
+
+                <div class="submitbtn">
+                    <button type="submit">Register Now</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
