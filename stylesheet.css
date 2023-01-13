@@ -21,7 +21,7 @@ body{
 }
 .main h1{
     background: linear-gradient(125deg,#ef5350,#2E1760,#006992);
-    background-clip: text;
+    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
    text-align: center;
 }
